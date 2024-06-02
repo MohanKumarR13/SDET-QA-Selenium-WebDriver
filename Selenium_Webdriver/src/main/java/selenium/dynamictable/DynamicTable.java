@@ -13,7 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class DynamicTable {
 	static WebDriver driver;
 
-	@SuppressWarnings("deprecation")
+	@SuppressWarnings ("deprecation")
 	public static void main(String[] args) throws Exception {
 		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
