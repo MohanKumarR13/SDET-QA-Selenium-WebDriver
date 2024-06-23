@@ -1,0 +1,161 @@
+How to user= CHATGPT in Software Testing
+=========================================
+1. User Story Creation
+========================
+
+Requirement : As a user i should able to login ecommerce application so that user can access all the features from the application
+
+Prompting :  Create user stories for the following requirement
+
+
+ Prompt : (Job Of Product Manager)
+ Create user stories for the following requirement
+ Requirement : As a user i should able to login ecommerce application so that user can access all the features from the application
+
+2. Test case Development (Tester)
+=================================
+
+Prompt : Create test cases for the following user story
+
+User Story: Login
+Title : User Login with email and password
+
+As a user,
+I want to log in using my email and password,
+so that i can access all the features of the ecommerce application
+
+Acceptance Criteria :
+User should be able to navigate to login page from the homepage.
+User should see fields for email and password.
+User should be able to click a "Login" button.
+If the email and password correct, the user should be redirected to their dashboard or homepage.
+If the email and password incorrect, an error message should be displayed.
+
+3. Syntax error detection and correction
+========================================
+
+Prompt : Find syntax errors and correct the below java code.
+
+public class Testing {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro);
+        
+        int number=10
+        if(number=10){
+            System.out.println("Number is ten");
+        }else{
+             System.out.println("Number is not ten";
+
+        }
+        for(int i=0;i<5;i++){
+                        System.out.println("i is :"+ i;
+
+        }
+        String [] names={"Alice", "Bob","Charlie"};
+        for(String name : names){
+            System.out.println(name);
+        }
+    }
+}
+
+4. Logical Error Detection and Correction
+==========================================
+
+Prompt :  Find out logical errors and correct the below java code.
+
+public class LargeNumber {
+    public static void main(String[] args) {
+        int num1=10;
+        int num2=20;
+        
+        if(num1>num2){
+            System.out.println("The Large number is" + num1);
+        }else{
+           System.out.println("The Large number is" + num1);
+
+        }
+    }
+}
+
+5. Test Automation Script Writing
+====================================
+
+Prompt: Write automation test script using Selenium with Java and TestNG for the following case.
+
+Test Case : Successful User Registration
+Title : Successful User Registration
+Preconditions: The user is on the registration page.
+Test Steps:
+1) Launch chrome browser and open URL "https://demo.nopommerce.com/"
+2) Navigate to the Registration Page.
+3) Enter valid data in all mandatory fields (e.g, First name, last name, password, confirm password).
+4) Select any required options (e.g., gener,newsletter, subscription).
+5) Click the "Register" button.
+   Expected result : The user is successfully registered and redirected to a welcome page or their account dashboard.
+A confirmation email is sent to the provided email address.
+
+6. Xpath locator creation
+===========================
+
+Prompt : Write Selenium Xpath Locators for all the elements in the page "https://www.google.co.in"
+
+ChatGPT free version till 2022
+
+7. Page Object Model(POM) class creation
+=========================================
+
+Prompt : I have a web page "https://www.google.com/" Create page object class for Selenium java automation framework without Page factory
+Prompt : I have a web page "https://www.google.com/" Create page object class for Selenium java automation framework with Page factory
+
+
+8. BDD Feature file scenarios creation
+======================================
+Prompt :  Create feature file scenarios for the test case
+Test Case : Successful User Registration
+Title : Successful User Registration
+Preconditions: The user is on the registration page.
+Test Steps:
+1) Launch chrome browser and open URL "https://demo.nopommerce.com/"
+2) Navigate to the Registration Page.
+3) Enter valid data in all mandatory fields (e.g, First name, last name, password, confirm password).
+4) Select any required options (e.g., gener,newsletter, subscription).
+5) Click the "Register" button.
+   Expected result : The user is successfully registered and redirected to a welcome page or their account dashboard.
+A confirmation email is sent to the provided email address.
+
+9.Utility Creation
+===================
+
+Prompt : "Create an utility in java to handle excel sheet using Apache POI. I would like to do following operations
+1) Count number of rows in excel sheet
+2) Count Number of cells in a row
+3) Read data from cell 
+4) Write data into cell."
+
+10. Test Data Generation
+=========================
+Prompt : " Create test data for registration form in tabular format. Data includes First name, last name, DOB, email, Password , Confirm password "
+Prompt : " Create test data for registration form in JSON format. Data includes First name, last name, DOB, email, Password , Confirm password "
+
+11. Code Review and Understanding
+==================================
+
+Prompt : Explain the below code
+
+public class LargeNumber {
+    public static void main(String[] args) {
+        int num1=10;
+        int num2=20;
+        
+        if(num1>num2){
+            System.out.println("The Large number is" + num1);
+        }else{
+           System.out.println("The Large number is" + num2);
+
+        }
+    }
+}
+
+Google bard(Gemini)
+
+
